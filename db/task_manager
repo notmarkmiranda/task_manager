@@ -1,0 +1,12 @@
+---
+tasks:
+- id: 1
+  title: Test Task
+  description: Test Task Description
+- id: 2
+  title: Clean the fridge
+  description: clean this shit out
+- id: 3
+  title: do the dishes
+  description: you lazy fuck
+total: 3
