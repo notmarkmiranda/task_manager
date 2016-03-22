@@ -1,11 +1,11 @@
-.container {
-  /*margin-top: 20px;*/
-}
-
 .index-button {
   margin-bottom: 10px;
 }
 
-.navbar-static-top {
-  border-radius: 5px;
+.widewrapper {
+  width:100%;
+  }
+
+.widewrapper > img {
+  width:100%;
 }

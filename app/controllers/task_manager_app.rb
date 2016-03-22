@@ -7,12 +7,12 @@ class TaskManagerApp < Sinatra::Base
     erb :dashboard
   end
 
-  get '/tasks' do
+  get '/tasks' do # read for all tasks
     @tasks = task_manager.all
     erb :index
   end
 
-  get '/tasks/new' do
+  get '/tasks/new' do # read form to create new tasks
     erb :new
   end
 
