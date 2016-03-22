@@ -10,6 +10,14 @@
 
 <div class="list-group">
 <% @tasks.each do |task| %>
-  <a href="/tasks/<%= task.id  %>" class="list-group-item"><%= task.id %>: <%= task.title %></a>
+  <div class="list-group-item">
+    <a href="/tasks/<%= task.id  %>"><%= task.id %>: <%= task.title %></a><br/>
+    <a class="btn btn-warning" href="/tasks/<%= task.id %>/edit">edit!</a>
+
+    <form action="/tasks/<%= task.id %>" method="post">
+      <input type="hidden" name="_method" value="delete">
+      <input class="btn btn-warning" type="submit" value="delete">
+    </form>
+  </div>
 <% end %>
 </div>
