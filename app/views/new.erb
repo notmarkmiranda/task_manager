@@ -1,7 +1,22 @@
+<div class="navbar navbar-default col-md-12 navbar-static-top">
+
+  <div class="navbar-brand">Welcome to the Task Manager</div>
+
+  <ul class='nav navbar-nav navbar-right'>
+    <li><a href="/">Home</a></li>
+    <li><a href="/tasks">Task Index</a></li>
+  </ul>
+
+</div>
+
+
+<div class="container">
 <form action="/tasks" method="post">
   <nav class="navbar navbar-default">
     <div class="navbar-brand">Enter a new task:</div>
   </nav>
+
+
   <div class="form-group">
     <label for="task">Task title:</label>
     <input type="text" class="form-control" name='task[title]'><br/>

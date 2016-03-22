@@ -1,7 +1,11 @@
 .container {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 
 .index-button {
   margin-bottom: 10px;
+}
+
+.navbar-static-top {
+  border-radius: 5px;
 }
