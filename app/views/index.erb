@@ -1,5 +1,9 @@
-<h1>All Tasks</h1>
+<nav class="navbar navbar-default">
+  <div class="navbar-brand">All Tasks</div>
+</nav>
 
+<div class="list-group">
 <% @tasks.each do |task| %>
-  <h3><%= task.id %>: <a href="/tasks/<%= task.id  %>"><%= task.title %></a></h3>
+  <a href="/tasks/<%= task.id  %>" class="list-group-item"><%= task.id %>: <%= task.title %></a>
 <% end %>
+</div>
