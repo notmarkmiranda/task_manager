@@ -35,7 +35,7 @@ class TaskManagerTest < Minitest::Test
     task4 = task_manager.all
     assert_equal 4, task4.size
   end
-
+    
   def test_it_updates_a_task
     task_manager.create({
       :title       => "fourth",

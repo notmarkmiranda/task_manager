@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'sinatra', require: 'sinatra/base'
-gem 'shotgun'
 gem 'minitest'
+gem 'capybara'
+gem 'shotgun'
+gem 'webrick'
+gem 'launchy'
 gem 'pry'
